@@ -1,0 +1,425 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="app.spitech">
+    <!-- START Added for GCM -->
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- END Added for GCM -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission
+        android:name="android.permission.RECEIVE_SMS"
+        tools:node="remove" />
+
+    <application
+        android:allowBackup="false"
+        android:allowClearUserData="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:installLocation="internalOnly"
+        android:label="@string/app_name1"
+        android:largeHeap="true"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true"
+        tools:replace="android:icon,android:label,android:usesCleartextTraffic"
+        tools:targetApi="q">
+        <activity android:name="app.spitech.ui.toppers.TodaysAllToppers"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity android:name="app.spitech.ui.orders.OrderDetails"
+            android:screenOrientation="portrait"
+            android:theme="@style/NoActionBar" />
+        <activity android:name="app.spitech.ui.auth.AnotherDevice" />
+        <activity
+            android:name="app.spitech.ui.common.VideoViewPlayer"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.common.VideoPlayer"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize"
+            android:screenOrientation="landscape"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.packages.CustomYoutube"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.auth.Login"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.spitech.ui.packages.CustomYoutubePlayer"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="sensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.downloads.Exam"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.packages.ContentTest"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.common.PDFViewer"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.packages.ContentPDF"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.settings.MobileUpdate"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.settings.EmailUpdate"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.settings.AccountUpdateOTP"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.settings.ProfileEdit"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.cart.CustomPayment"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.batch.BatchList"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.batch.BatchDetails"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.downloads.Download"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.help.Help"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.store.Store"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="NOTIFY_STORE_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.spitech.ui.other.Maintenance"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.other.NetworkNotExist"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity android:name="app.spitech.appSDK.ComingSoon" />
+        <activity android:name="app.spitech.ui.other.Invite" />
+        <activity android:name="app.spitech.ui.other.YoutubeVideo" />
+        <activity android:name="app.spitech.ui.other.ExitActivity" />
+        <activity
+            android:name="app.spitech.ui.cart.BookCart"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="app.spitech.ui.cart.PackageCart"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="app.spitech.ui.cart.PayUMoneyHandler"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="app.spitech.ui.chat.group.AddGroupMember"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.chat.group.GroupDetails"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.chat.group.GroupManage"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.settings.Settings"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" /> <!-- START Added for GCM -->
+        <!-- END Added for GCM -->
+        <activity
+            android:name="app.spitech.ui.toppers.Toppers"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="app.spitech.ui.test.Answers"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="app.spitech.ui.test.ScoreCard"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="app.spitech.ui.gallery.Gallery"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.gallery.GalleryImageViewer"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.toppers.TopperProfile"
+            android:screenOrientation="nosensor" />
+        <activity
+            android:name="app.spitech.ui.auth.MobileNumberSignup"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.auth.SocialAccountSignup"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.auth.OTP"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.chat.group.GroupChat"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.chat.student.Chat"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.chat.student.SearchUser"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.chat.ChatHome"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar">
+            <intent-filter>
+                <action android:name="NOTIFY_CHAT_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="app.spitech.ui.orders.Orders"
+            android:parentActivityName="app.spitech.ui.home.Home"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.home.Home" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.other.CMS"
+            android:parentActivityName="app.spitech.ui.home.Home"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.home.Home" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.tricks.MnemonicDetails"
+            android:parentActivityName="app.spitech.ui.tricks.MnemonicsListing"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.tricks.MnemonicsListing" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.branch.BranchListing"
+            android:parentActivityName="app.spitech.ui.home.Home"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.home.Home" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.notification.NotificationDetails"
+            android:parentActivityName="app.spitech.ui.notification.NotificationList"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.notification.NotificationList" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.notification.NotificationList"
+            android:parentActivityName="app.spitech.ui.home.Home"
+            android:screenOrientation="nosensor">
+            <intent-filter>
+                <action android:name="NOTIFY_NOTIFICATION_ACTIVITY" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.home.Home" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.subject.SubjectListing"
+            android:parentActivityName="app.spitech.ui.home.Home"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.home.Home" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.gallery.GalleryImage"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.test.TestDetails"
+            android:parentActivityName="app.spitech.ui.other.MainActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.other.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.daily_quiz.DailyQuiz"
+            android:parentActivityName="app.spitech.ui.other.MainActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.other.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.bookmarks.Bookmarks"
+            android:parentActivityName="app.spitech.ui.other.MainActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.other.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.publication.Publication"
+            android:parentActivityName="app.spitech.ui.other.MainActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.other.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.job.JobListing"
+            android:parentActivityName="app.spitech.ui.other.MainActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.other.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.news.NewsListing"
+            android:parentActivityName="app.spitech.ui.other.MainActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.other.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.news.NewsDetails"
+            android:parentActivityName="app.spitech.ui.news.NewsListing"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.news.NewsListing" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.tricks.MnemonicsListing"
+            android:parentActivityName="app.spitech.ui.other.MainActivity"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.other.MainActivity" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.job.JobDetails"
+            android:parentActivityName="app.spitech.ui.job.JobListing"
+            android:screenOrientation="nosensor">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="app.spitech.ui.job.JobListing" />
+        </activity>
+        <activity
+            android:name="app.spitech.ui.demo.VideoContent"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.packages.ContentVideo"
+            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|screenLayout|smallestScreenSize|uiMode"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.home.Home"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.other.MainActivity"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.test.TestStart"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <activity
+            android:name="app.spitech.ui.packages.ProductDetails"
+            android:screenOrientation="nosensor"
+            android:theme="@style/NoActionBar" />
+        <!--
+ Set custom default icon. This is used when no icon is set for incoming notification messages.
+             See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="${applicationId}" />
+
+        <service
+            android:name="app.spitech.appSDK.firebase.MyFirebaseMessagingService"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileProvider"
+            android:enabled="true"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_provider_paths" />
+        </provider>
+
+        <service
+            android:name="app.spitech.appSDK.services.FileDownloadService"
+            android:exported="false" />
+    </application>
+
+</manifest>

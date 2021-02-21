@@ -1,0 +1,16 @@
+<component name="libraryTable">
+  <library name="Gradle: com.joanzapata.iconify:android-iconify-fontawesome:2.2.2@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/fcdae75c082541f88456f002cd471beb/jetified-android-iconify-fontawesome-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26f8314e94b2011d90209283719b29b3/jetified-android-iconify-fontawesome-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26f8314e94b2011d90209283719b29b3/jetified-android-iconify-fontawesome-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26f8314e94b2011d90209283719b29b3/jetified-android-iconify-fontawesome-2.2.2/jars/classes.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanzapata.iconify/android-iconify-fontawesome/2.2.2/8998d1dbdfcff129c06b5c80679a95d77032ff18/android-iconify-fontawesome-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanzapata.iconify/android-iconify-fontawesome/2.2.2/a227b2763bb9b8341f2cdc4fd9dc429801ed0b64/android-iconify-fontawesome-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

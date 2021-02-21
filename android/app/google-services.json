@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "907912180058",
+    "firebase_url": "https://academy-app-demo.firebaseio.com",
+    "project_id": "academy-app-demo",
+    "storage_bucket": "academy-app-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:907912180058:android:d92c0f7d278434dd910363",
+        "android_client_info": {
+          "package_name": "app.spitech"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "907912180058-7j35eqhcv0mea8qfl2r40176h532shvo.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBrKAS3g2790Ux6Yp8rLiNiS2Hk0c5lcFA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "907912180058-7j35eqhcv0mea8qfl2r40176h532shvo.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

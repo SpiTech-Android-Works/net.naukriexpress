@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.facebook.android:facebook-core:5.15.3@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca955d815e08c43a7e2947bd6aaac786/jetified-facebook-core-5.15.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca955d815e08c43a7e2947bd6aaac786/jetified-facebook-core-5.15.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ca955d815e08c43a7e2947bd6aaac786/jetified-facebook-core-5.15.3/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5635363b65cc4aa2449e79360f87ab54/jetified-facebook-core-5.15.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5635363b65cc4aa2449e79360f87ab54/jetified-facebook-core-5.15.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/5635363b65cc4aa2449e79360f87ab54/jetified-facebook-core-5.15.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/90aa0cf367f395f68de0977726eb5fae/jetified-facebook-core-5.15.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b03bb42c8994fbbb65d60a6feb23b75/jetified-facebook-core-5.15.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b03bb42c8994fbbb65d60a6feb23b75/jetified-facebook-core-5.15.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9b03bb42c8994fbbb65d60a6feb23b75/jetified-facebook-core-5.15.3/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00a96b0c1e8636d8ed2012ed3f0a0ba3/jetified-facebook-core-5.15.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00a96b0c1e8636d8ed2012ed3f0a0ba3/jetified-facebook-core-5.15.3/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/00a96b0c1e8636d8ed2012ed3f0a0ba3/jetified-facebook-core-5.15.3/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-core/5.15.3/51166b910aa6ba589236b41d84624722b96a69ab/facebook-core-5.15.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.facebook.android/facebook-core/5.15.3/a3a6c3cd110f05e4968ec22a6245f4a2ad189ac3/facebook-core-5.15.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

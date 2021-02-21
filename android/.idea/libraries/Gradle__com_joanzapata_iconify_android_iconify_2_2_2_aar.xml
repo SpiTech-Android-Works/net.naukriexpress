@@ -1,0 +1,25 @@
+<component name="libraryTable">
+  <library name="Gradle: com.joanzapata.iconify:android-iconify:2.2.2@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2914bf942c0fc07c2b0afa9ad4f9681b/jetified-android-iconify-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2914bf942c0fc07c2b0afa9ad4f9681b/jetified-android-iconify-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2914bf942c0fc07c2b0afa9ad4f9681b/jetified-android-iconify-2.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed5d83e469c291a332b1c3245a5f0a11/jetified-android-iconify-2.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed5d83e469c291a332b1c3245a5f0a11/jetified-android-iconify-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ed5d83e469c291a332b1c3245a5f0a11/jetified-android-iconify-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b393990706ff1f7c0ce3841fba61054d/jetified-android-iconify-2.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69465ab4a617a67a8c5885caebd4ca8f/jetified-android-iconify-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69465ab4a617a67a8c5885caebd4ca8f/jetified-android-iconify-2.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/69465ab4a617a67a8c5885caebd4ca8f/jetified-android-iconify-2.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0062f93e973728f5195b82d2e87cd3b4/jetified-android-iconify-2.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0062f93e973728f5195b82d2e87cd3b4/jetified-android-iconify-2.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0062f93e973728f5195b82d2e87cd3b4/jetified-android-iconify-2.2.2/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanzapata.iconify/android-iconify/2.2.2/ebfb925ebca412bdaf431d73d3929c0593253104/android-iconify-2.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.joanzapata.iconify/android-iconify/2.2.2/cd1d2194a780c80dd0ea6a47fec5874390895c9d/android-iconify-2.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

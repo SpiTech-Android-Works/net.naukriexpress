@@ -1,0 +1,22 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.HaarigerHarald:android-youtubeExtractor:v2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e11265b9942fe181efd48a0a6b741b6/jetified-android-youtubeExtractor-v2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e11265b9942fe181efd48a0a6b741b6/jetified-android-youtubeExtractor-v2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6e11265b9942fe181efd48a0a6b741b6/jetified-android-youtubeExtractor-v2.0.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/730ff387d83c4efabc03dad84f719bb0/jetified-android-youtubeExtractor-v2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/730ff387d83c4efabc03dad84f719bb0/jetified-android-youtubeExtractor-v2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/730ff387d83c4efabc03dad84f719bb0/jetified-android-youtubeExtractor-v2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46f0cb50526145287e0b1b1cee0ed66f/jetified-android-youtubeExtractor-v2.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46f0cb50526145287e0b1b1cee0ed66f/jetified-android-youtubeExtractor-v2.0.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/46f0cb50526145287e0b1b1cee0ed66f/jetified-android-youtubeExtractor-v2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/793adab337e3f5af46860da7797177d1/jetified-android-youtubeExtractor-v2.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/793adab337e3f5af46860da7797177d1/jetified-android-youtubeExtractor-v2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/793adab337e3f5af46860da7797177d1/jetified-android-youtubeExtractor-v2.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.HaarigerHarald/android-youtubeExtractor/v2.0.0/5d0d713078a3bc91384d146443fecbd260e0f20/android-youtubeExtractor-v2.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

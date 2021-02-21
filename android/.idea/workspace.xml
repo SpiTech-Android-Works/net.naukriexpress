@@ -1,0 +1,673 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="arya.spitech" />
+        <option name="packageNamePattern" value="arya.spitech" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="thecgpsccoach.spitech" />
+        <option name="packageNamePattern" value="thecgpsccoach.spitech" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="quizguru.in" />
+        <option name="packageNamePattern" value="quizguru.in" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="app.spitech" />
+        <option name="packageNamePattern" value="app.spitech" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="in.aimguru" />
+        <option name="packageNamePattern" value="in.aimguru" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="femh.spitech" />
+        <option name="packageNamePattern" value="femh.spitech" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="quizguru.spitech" />
+        <option name="packageNamePattern" value="quizguru.spitech" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="feup.spitech" />
+        <option name="packageNamePattern" value="feup.spitech" />
+        <option name="pid" value="" />
+      </filter>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="" />
+        <option name="name" value="calailunga.spitech" />
+        <option name="packageNamePattern" value="calailunga.spitech" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <target>android-29</target>
+      </config>
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="error" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="quizguru.in" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ba3abc41-cd61-440d-831e-0f2f0ab0f6f1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/assetWizardSettings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_installreferrer_installreferrer_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_installreferrer_installreferrer_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_devbrackets_android_exomedia_4_3_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_devbrackets_android_exomedia_4_3_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_common_5_15_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_common_5_15_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_core_5_15_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_core_5_15_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_login_5_15_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_facebook_android_facebook_login_5_15_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_HaarigerHarald_android_youtubeExtractor_v2_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_HaarigerHarald_android_youtubeExtractor_v2_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_barteksc_android_pdf_viewer_3_0_0_beta_5_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_barteksc_android_pdf_viewer_3_0_0_beta_5_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_barteksc_pdfium_android_1_8_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_barteksc_pdfium_android_1_8_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_joanzapata_iconify_android_iconify_2_2_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_joanzapata_iconify_android_iconify_2_2_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_payu_custombrowser_payu_custom_browser_7_5_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_payu_custombrowser_payu_custom_browser_7_5_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_payumoney_core_payumoney_sdk_7_6_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_payumoney_core_payumoney_sdk_7_6_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_payumoney_sdkui_plug_n_play_1_6_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_payumoney_sdkui_plug_n_play_1_6_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__uk_co_chrisjenx_calligraphy_2_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__uk_co_chrisjenx_calligraphy_2_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/app/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/google-services.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/google-services.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/quizguru/in/ExampleInstrumentedTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/app/spitech/ExampleInstrumentedTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/ic_launcher-playstore.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/adapter/AddressAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/adapter/AddressAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/adapter/CommonJNSASListingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/adapter/CommonJNSASListingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/adapter/CouponAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/adapter/CouponAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/adapter/DialogListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/adapter/DialogListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/adapter/SpinnerStateAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/adapter/SpinnerStateAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/AppMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/AppMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/AppSession.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/AppSession.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/BaseFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/BaseFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/ComingSoon.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/ComingSoon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/ConvertTo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/ConvertTo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/CustomUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/CustomUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/DividerItemDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/DividerItemDecorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/HelperMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/HelperMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/Interfaces/CommonInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/Interfaces/CommonInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/Interfaces/RetrofitInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/Interfaces/RetrofitInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/SpiTech.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/SpiTech.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/StaticMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/StaticMethods.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/Validation.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/Validation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/fileHandling/FileDownloader.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/fileHandling/FileDownloader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/firebase/MyFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/firebase/MyFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/helpers/PrefManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/helpers/PrefManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/appSDK/services/FileDownloadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/appSDK/services/FileDownloadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/BookModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/BookModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/DataBin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/DataBin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/DataModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/DataModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/PackageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/PackageModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/QuestionData.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/QuestionData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/ResultModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/ResultModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/SpinnerModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/SpinnerModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/SpinnerStateModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/SpinnerStateModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/TestModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/TestModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/models/VideoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/models/VideoModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/auth/AnotherDevice.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/auth/AnotherDevice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/auth/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/auth/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/auth/MobileNumberSignup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/auth/MobileNumberSignup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/auth/OTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/auth/OTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/auth/SocialAccountSignup.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/auth/SocialAccountSignup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/batch/BatchDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/batch/BatchDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/batch/BatchList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/batch/BatchList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/batch/adapter/BatchAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/batch/adapter/BatchAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/bookmarks/Bookmarks.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/bookmarks/Bookmarks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/bookmarks/FrgBookmarkContainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/bookmarks/FrgBookmarkContainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/bookmarks/adapter/BookmarkListingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/bookmarks/adapter/BookmarkListingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/branch/BranchListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/branch/BranchListing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/branch/adapter/BranchAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/branch/adapter/BranchAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/cart/BookCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/cart/BookCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/cart/CustomPayment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/cart/CustomPayment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/cart/PackageCart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/cart/PackageCart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/cart/PayUMoneyHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/cart/PayUMoneyHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/ChatHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/ChatHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/AddGroupMember.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/AddGroupMember.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/GroupChat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/GroupChat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/GroupDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/GroupDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/GroupListFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/GroupListFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/GroupManage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/GroupManage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/adapter/AddMemberAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/adapter/AddMemberAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/adapter/FirebaseGroupChatAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/adapter/FirebaseGroupChatAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/adapter/GroupListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/adapter/GroupListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/group/adapter/GroupMemberAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/group/adapter/GroupMemberAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/student/Chat.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/student/Chat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/student/ChatStudentList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/student/ChatStudentList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/student/SearchUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/student/SearchUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/student/adapter/ChatStudentListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/student/adapter/ChatStudentListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/student/adapter/FirebaseChatAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/student/adapter/FirebaseChatAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/chat/student/adapter/SearchUserAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/chat/student/adapter/SearchUserAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/common/PDFViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/common/PDFViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/common/VideoPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/common/VideoPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/common/VideoPlayerWithDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/common/VideoPlayerWithDownload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/common/VideoViewPlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/common/VideoViewPlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/daily_quiz/DailyQuiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/daily_quiz/DailyQuiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/daily_quiz/QuizFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/daily_quiz/QuizFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/daily_quiz/adapter/QuizAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/daily_quiz/adapter/QuizAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/demo/VideoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/demo/VideoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/demo/VideoContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/demo/VideoContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/downloads/Download.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/downloads/Download.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/downloads/Exam.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/downloads/Exam.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/downloads/adapter/DownloadAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/downloads/adapter/DownloadAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/downloads/adapter/ExamAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/downloads/adapter/ExamAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/gallery/Gallery.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/gallery/Gallery.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/gallery/GalleryImage.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/gallery/GalleryImage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/gallery/GalleryImageViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/gallery/GalleryImageViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/gallery/adapter/GalleryImageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/gallery/adapter/GalleryImageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/gallery/adapter/GalleryImageViewerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/gallery/adapter/GalleryImageViewerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/gallery/adapter/GalleryListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/gallery/adapter/GalleryListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/help/Help.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/help/Help.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/home/FrgHome.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/home/FrgHome.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/home/Home.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/home/Home.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/home/adapter/TodayJoinedAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/home/adapter/TodayJoinedAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/home/adapter/ToppersAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/home/adapter/ToppersAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/job/FrgJobDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/job/FrgJobDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/job/FrgSimilarJob.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/job/FrgSimilarJob.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/job/JobDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/job/JobDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/job/JobListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/job/JobListing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/news/FrgNewsDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/news/FrgNewsDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/news/FrgNewsListings.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/news/FrgNewsListings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/news/NewsDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/news/NewsDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/news/NewsListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/news/NewsListing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/notification/NotificationDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/notification/NotificationDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/notification/NotificationList.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/notification/NotificationList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/notification/adapter/NotificationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/notification/adapter/NotificationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/orders/OrderDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/orders/OrderDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/orders/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/orders/Orders.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/orders/TabBookOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/orders/TabBookOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/orders/TabPackageOrder.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/orders/TabPackageOrder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/orders/adapter/OrderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/orders/adapter/OrderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/other/CMS.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/other/CMS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/other/ExitActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/other/ExitActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/other/Invite.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/other/Invite.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/other/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/other/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/other/Maintenance.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/other/Maintenance.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/other/NetworkNotExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/other/NetworkNotExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/other/YoutubeVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/other/YoutubeVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/ContentPDF.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/ContentPDF.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/ContentTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/ContentTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/ContentVideo.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/ContentVideo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/CustomYoutube.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/CustomYoutube.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/CustomYoutubePlayer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/CustomYoutubePlayer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/FrgAllIndiaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/FrgAllIndiaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/FrgMock.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/FrgMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/FrgTopicWise.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/FrgTopicWise.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/ProductDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/ProductDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/StoreBottomSheet.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/StoreBottomSheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/TabContents.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/TabContents.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/TabOverview.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/TabOverview.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/adapter/AudioAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/adapter/AudioAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/adapter/FolderAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/adapter/FolderAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/adapter/PDFContentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/adapter/PDFContentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/adapter/PackageAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/adapter/PackageAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/adapter/TestContentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/adapter/TestContentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/packages/adapter/VideoContentAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/packages/adapter/VideoContentAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/publication/Publication.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/publication/Publication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/publication/adapter/PublicationAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/publication/adapter/PublicationAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/settings/AccountUpdateOTP.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/settings/AccountUpdateOTP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/settings/EmailUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/settings/EmailUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/settings/MobileUpdate.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/settings/MobileUpdate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/settings/ProfileEdit.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/settings/ProfileEdit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/settings/Settings.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/settings/Settings.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/store/Store.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/store/adapter/StoreAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/store/adapter/StoreAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/subject/SubjectListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/subject/SubjectListing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/subject/adapter/SubjectAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/subject/adapter/SubjectAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/test/Answers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/test/Answers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/test/ScoreCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/test/ScoreCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/test/TestDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/test/TestDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/test/TestStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/test/TestStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/test/adapter/QuestionGridAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/test/adapter/QuestionGridAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/test/adapter/QuestionNumberAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/test/adapter/QuestionNumberAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/test/adapter/TestAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/test/adapter/TestAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/toppers/TodaysAllToppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/toppers/TodaysAllToppers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/toppers/TopperProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/toppers/TopperProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/toppers/Toppers.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/toppers/Toppers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/toppers/adapter/TodaysAllToperAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/toppers/adapter/TodaysAllToperAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/toppers/adapter/ToppersTestAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/toppers/adapter/ToppersTestAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/tricks/MnemonicDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/tricks/MnemonicDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/tricks/MnemonicsListing.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/tricks/MnemonicsListing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/tricks/adapter/MnemonicListingAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/tricks/adapter/MnemonicListingAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/video/adapter/TopVideoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/video/adapter/TopVideoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/quizguru/in/ui/video/adapter/VideoAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/app/spitech/ui/video/adapter/VideoAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-mdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_foreground.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/navigation/nav_graph.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/academy.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/academy.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/ic_launcher_background.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/quizguru/in/ExampleUnitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/app/spitech/ExampleUnitTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[27c9b60e]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$/app">
+          <activation />
+        </task>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="android" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="android" type="c8890929:TasksNode$1" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="E:\spsoni\hdd\Android\spitech-online-exam\clients\quizguru.in\playstore\keystore-quizguru.in\keystore.jks" />
+    <option name="KEY_ALIAS" value="quizguru.in" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="KotlinCodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="ProjectId" id="1d310u6CBmQjsYOj7xWCnpxiy7e" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$/../new-app-steps" />
+    <property name="BundleExportedModule" value="android.app" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.1.17:5555" />
+    <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-01T13:54:17.978Z" />
+    <property name="ExportApk.ApkPath" value="E:\spsoni\hdd\Android\spitech-online-exam\clients\quizguru.in\playstore" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SelectDeploymentTargetsDialog.selectedDevices" value="27ede300fd217ece&#10;192.168.1.17:5555" />
+    <property name="adb_path" value="H:\sdk\platform-tools\adb.exe" />
+    <property name="android-custom-viewC:/Users/linkCXO/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.3.0-alpha03/a0831ff8b42b99b5084c203070690505b638b7d2/material-1.3.0-alpha03-sources.jar!/com/google/android/material/navigation/NavigationView.java_SELECTED" value="NavigationView" />
+    <property name="android.recentlyUsedThemes" value="Base.Theme.AppCompat.Light" />
+    <property name="android.sdk.path" value="H:/sdk" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="multi-representation-previewC:/Users/linkCXO/.gradle/caches/modules-2/files-2.1/com.google.android.material/material/1.3.0-alpha03/a0831ff8b42b99b5084c203070690505b638b7d2/material-1.3.0-alpha03-sources.jar!/com/google/android/material/navigation/NavigationView.java_selected" value="Custom views" />
+    <property name="project.structure.last.edited" value="Suggestions" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_BUILD_TYPE" value="release" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="in.gdc4gpat.ui.chat.group.adapter" />
+    </key>
+    <key name="android.template.-473436592">
+      <recent name="app.spitech.ui.packages" />
+    </key>
+    <key name="android.template.-2008763910">
+      <recent name="thecgpsccoach.spitech.ui.auth" />
+    </key>
+    <key name="android.template.1505122278">
+      <recent name="app.spitech.ui.cart" />
+    </key>
+    <key name="android.template.2021495672">
+      <recent name="arya.spitech.ui.downloads" />
+      <recent name="arya.spitech.ui.help" />
+      <recent name="arya.spitech.ui.store" />
+    </key>
+    <key name="android.template.-1791263881">
+      <recent name="thecgpsccoach.spitech.ui.batch" />
+    </key>
+    <key name="android.template.1332569972">
+      <recent name="calailunga.spitech.ui.orders" />
+    </key>
+    <key name="android.template.217809236">
+      <recent name="quizguru.in.ui.demo" />
+    </key>
+    <key name="android.template.945873506">
+      <recent name="thecgpsccoach.spitech.ui.packages" />
+    </key>
+    <key name="android.template.-56455456">
+      <recent name="in.gdc4gpat.ui.payment_gateway" />
+    </key>
+    <key name="android.template.1609142618">
+      <recent name="quizguru.in.ui.common" />
+    </key>
+    <key name="android.template.-1823225805">
+      <recent name="thecgpsccoach.spitech.ui.packages" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="quizguru.in.ui.toppers.adapter" />
+      <recent name="quizguru.in.ui.toppers" />
+      <recent name="thecgpsccoach.spitech.ui.common" />
+      <recent name="quizguru.in.ui.common" />
+      <recent name="quizguru.in.ui.packages" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="thecgpsccoach.spitech.appSDK" />
+    </key>
+    <key name="android.template.-156750580">
+      <recent name="quizguru.in.ui.demo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\spsoni\hdd\Android\spitech-online-exam\app-master\android\app\src\main\res\drawable" />
+      <recent name="H:\Android\spitech-online-exam\app-master\android\app\src\main\res\layout" />
+      <recent name="H:\Android\spitech-online-exam\app-master\android\app\src\main\res\drawable" />
+      <recent name="H:\Android\spitech-online-exam\app.spitech\android\app\src\main\res\drawable" />
+      <recent name="H:\Android\spitech-online-exam\thecgpsccoach.spitech.in\android\app\src\main\res\layout" />
+    </key>
+    <key name="android.template.2033893056">
+      <recent name="arya.spitech.ui.auth" />
+    </key>
+    <key name="android.template.1867895442">
+      <recent name="arya.spitech.ui.other" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android App.app">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="android.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="specific_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="app.spitech.ui.auth.Login" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GDC:app [signingReport]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="signingReport" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="android:app [androidDependencies]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/app" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="androidDependencies" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Android App.app" />
+      <item itemvalue="Gradle.GDC:app [signingReport]" />
+      <item itemvalue="Gradle.android:app [androidDependencies]" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.GDC:app [signingReport]" />
+        <item itemvalue="Gradle.android:app [androidDependencies]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ba3abc41-cd61-440d-831e-0f2f0ab0f6f1" name="Default Changelist" comment="" />
+      <created>1591638743275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1591638743275</updated>
+    </task>
+    <task id="LOCAL-00001" summary="commit">
+      <created>1593275721166</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1593275721166</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.." />
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="233" y="34" key="#Auto_Import" timestamp="1604485466184">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="233" y="34" key="#Auto_Import/0.31.1280.689@0.31.1280.689" timestamp="1604485466184" />
+    <state x="185" y="125" key="#PSD" timestamp="1604913710757">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="185" y="125" key="#PSD/0.31.1280.689@0.31.1280.689" timestamp="1604913710757" />
+    <state x="232" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1604917226087">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="232" y="301" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.31.1280.689@0.31.1280.689" timestamp="1604917226087" />
+    <state x="245" y="146" key="AndroidCreateResourceFileDialog" timestamp="1611498901930">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="245" y="146" key="AndroidCreateResourceFileDialog/0.31.1280.689@0.31.1280.689" timestamp="1611498901930" />
+    <state x="484" y="200" key="AndroidCreateXmlResourceDialog" timestamp="1605436450598">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="484" y="200" key="AndroidCreateXmlResourceDialog/0.31.1280.689@0.31.1280.689" timestamp="1605436450598" />
+    <state x="734" y="120" key="FileChooserDialogImpl" timestamp="1613038074623">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="734" y="120" key="FileChooserDialogImpl/0.31.1280.689@0.31.1280.689" timestamp="1613038074623" />
+    <state width="1236" height="286" key="GridCell.Tab.0.bottom" timestamp="1611499625440">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="1236" height="286" key="GridCell.Tab.0.bottom/0.31.1280.689@0.31.1280.689" timestamp="1611499625440" />
+    <state width="1236" height="286" key="GridCell.Tab.0.center" timestamp="1611499625440">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="1236" height="286" key="GridCell.Tab.0.center/0.31.1280.689@0.31.1280.689" timestamp="1611499625440" />
+    <state width="1236" height="286" key="GridCell.Tab.0.left" timestamp="1611499625440">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="1236" height="286" key="GridCell.Tab.0.left/0.31.1280.689@0.31.1280.689" timestamp="1611499625440" />
+    <state width="1236" height="286" key="GridCell.Tab.0.right" timestamp="1611499625440">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state width="1236" height="286" key="GridCell.Tab.0.right/0.31.1280.689@0.31.1280.689" timestamp="1611499625440" />
+    <state x="354" y="81" width="694" height="564" key="find.popup" timestamp="1605825087197">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="354" y="81" width="694" height="564" key="find.popup/0.31.1280.689@0.31.1280.689" timestamp="1605825087197" />
+    <state x="316" y="172" width="672" height="677" key="run.anything.popup" timestamp="1605435616543">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="316" y="172" width="672" height="677" key="run.anything.popup/0.31.1280.689@0.31.1280.689" timestamp="1605435616543" />
+    <state x="323" y="86" width="672" height="635" key="search.everywhere.popup" timestamp="1604489568028">
+      <screen x="0" y="31" width="1280" height="689" />
+    </state>
+    <state x="323" y="86" width="672" height="635" key="search.everywhere.popup/0.31.1280.689@0.31.1280.689" timestamp="1604489568027" />
+  </component>
+</project>
