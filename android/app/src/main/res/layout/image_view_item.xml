@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+    <TextView
+        style="@style/lbl20"
+        android:id="@+id/title"
+        android:gravity="center"
+        android:text="Title"/>
+    <ImageView
+        style="@style/imageView"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:id="@+id/image"
+        android:src="@drawable/no_image"
+        android:scaleType="fitXY"
+        android:adjustViewBounds="true"/>
+</LinearLayout>
+

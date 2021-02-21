@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_common_app_bar" />
+
+    <ScrollView
+        android:layout_below="@+id/common_app_bar"
+        style="@style/scrollView"
+        android:padding="@dimen/dimen_8dp">
+
+        <LinearLayout style="@style/formGroupVertical">
+             <TextView
+                 android:text="0"
+                 android:id="@+id/state_id"
+                 android:visibility="gone"
+                 android:layout_width="match_parent"
+                 android:layout_height="wrap_content"/>
+            <LinearLayout
+                style="@style/formGroupVertical"
+                android:layout_marginBottom="@dimen/dimen_20dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/photo"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginBottom="10dp"
+                    android:src="@drawable/ic_profile" />
+                <TextView
+                    android:id="@+id/customer_id"
+                    style="@style/lbl16"
+                    android:gravity="center_horizontal"
+                    android:padding="1dp"
+                    android:text="Student Id"
+                    android:textColor="@color/red" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/email"
+                        style="@style/edit_text"
+                        android:enabled="false"
+                        android:hint="Email *"
+                        android:inputType="textEmailAddress" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <ImageView
+                    android:id="@+id/btnEmailEdit"
+                    android:padding="@dimen/dimen_5dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <com.google.android.material.textfield.TextInputLayout
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <EditText
+                        android:id="@+id/mobile"
+                        style="@style/edit_text"
+                        android:enabled="false"
+                        android:hint="Mobile Number"
+                        android:inputType="phone"
+                        android:maxLength="10" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <ImageView
+                    android:id="@+id/btnMobileEdit"
+                    android:padding="@dimen/dimen_5dp"
+                    android:src="@drawable/ic_pencil"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/edit_text"
+                    android:hint="@string/full_name"
+                    android:inputType="textCapWords" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/city"
+                    style="@style/edit_text"
+                    android:hint="City Name"
+                    android:inputType="textCapWords" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/state"
+                    style="@style/edit_text"
+                    android:hint="State Name"
+                   android:drawableRight="@drawable/ic_dropdown" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <androidx.appcompat.widget.AppCompatButton
+                style="@style/button_success"
+                android:id="@+id/btnSubmit"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:padding="12dp"
+                android:text="@string/save"
+              />
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/include_progress_bar"/>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+    <include layout="@layout/include_common_app_bar"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/common_app_bar"
+        android:padding="@dimen/dimen_8dp"
+        style="@style/recyclerView"
+        android:id="@+id/recyclerView"/>
+    <include layout="@layout/include_empty_view"/>
+    <include layout="@layout/include_progressbar_with_text"/>
+</RelativeLayout>

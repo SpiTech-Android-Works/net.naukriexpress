@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="2dp"
+    app:cardElevation="@dimen/dimen_4dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_5dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="@dimen/dimen_40dp"
+            android:layout_height="@dimen/dimen_40dp"
+            android:src="@drawable/ic_pdf" />
+
+        <LinearLayout style="@style/formGroupVertical">
+
+            <TextView
+                android:id="@+id/name"
+                style="@style/lbl16"
+                android:layout_marginLeft="@dimen/dimen_5dp"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:layout_weight="@integer/int_1"
+                android:text="Content Name" />
+
+            <LinearLayout
+                style="@style/formGroupHorizontal"
+                android:layout_marginTop="@dimen/dimen_10dp"
+                android:gravity="right">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnDownload"
+                    style="@style/button_primary"
+                    android:layout_height="@dimen/dimen_30dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                    android:text="Download" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

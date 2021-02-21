@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:padding="@dimen/dimen_2dp">
+
+    <LinearLayout
+        style="@style/formGroupVertical"
+        android:layout_marginBottom="5dp"
+        android:padding="2dp">
+
+        <LinearLayout
+           style="@style/formGroupHorizontal"
+            android:weightSum="4">
+            <LinearLayout
+                style="@style/formGroupVertical"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/date"
+                    style="@style/lbl12"
+                    android:padding="2dp"
+                    android:text="Date : 29/Sep/2019"
+                    android:textColor="@color/red" />
+
+                <TextView
+                    android:id="@+id/name"
+                    style="@style/lbl15"
+                    android:padding="2dp"
+                    android:text="Pharma Test1" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/formGroupVertical"
+                android:layout_weight="3"
+                android:orientation="vertical">
+                <androidx.appcompat.widget.AppCompatButton
+                    style="@style/button_primary"
+                    android:id="@+id/btnStart"
+                    android:text="Start"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+           style="@style/formGroupHorizontal"
+            android:weightSum="4">
+
+            <TextView
+                android:id="@+id/details"
+                style="@style/lbl12"
+                android:layout_weight="1"
+                android:text="@string/_200_marks" />
+
+            <TextView
+                android:id="@+id/student_count"
+                style="@style/lbl12"
+                android:layout_weight="3"
+                android:gravity="center_horizontal"
+                android:text="@string/_200_students" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

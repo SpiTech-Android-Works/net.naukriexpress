@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00AEFA</color>
+    <color name="colorPrimaryDark">#0077B5</color>
+    <color name="colorAccent">#0077B5</color>
+    <array name="array_dot_active">
+        <item>@color/dot_light_screen1</item>
+        <item>@color/dot_light_screen2</item>
+        <item>@color/dot_light_screen3</item>
+        <item>@color/dot_light_screen4</item>
+    </array>
+    <array name="array_dot_inactive">
+        <item>@color/dot_dark_screen1</item>
+        <item>@color/dot_dark_screen2</item>
+        <item>@color/dot_dark_screen3</item>
+        <item>@color/dot_dark_screen4</item>
+    </array>
+
+
+    <color name="selected_tab">#a854d4</color>
+    <color name="windowBackground">#ECEFF1</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="purpule">#a854d4</color>
+    <color name="red">#ff3300</color>
+    <color name="green">#09b83e</color>
+    <color name="green_dark">#008000</color>
+    <color name="orange">#f57d00</color>
+    <color name="gray">#7f8c8d</color>
+    <color name="gray_light">#cfcfcf</color>
+    <color name="gray_color">#808080</color>
+
+    <color name="current_question">#0077B5</color>
+    <color name="marked_question">#f57d00</color>
+    <color name="attempted_question">#008000</color>
+    <color name="skipped_question">#cfcfcf</color>
+
+
+    <color name="blue">#0077B5</color>
+
+    <!-- Screens background color-->
+    <color name="light_blue">#93c6fd</color>
+    <color name="bg_box_header">#f64c73</color>
+    <color name="bg_screen3">#3395ff</color>
+
+    <!-- dots inactive colors -->
+    <color name="link">#3395ff</color>
+    <color name="dot_dark_screen1">#d1395c</color>
+    <color name="dot_dark_screen2">#14a895</color>
+
+    <!-- dots active colors -->
+    <color name="dot_dark_screen3">#2278d4</color>
+    <color name="dot_dark_screen4">#a854d4</color>
+    <color name="dot_light_screen1">#f98da5</color>
+    <color name="dot_light_screen2">#8cf9eb</color>
+
+    <color name="dot_light_screen3">#93c6fd</color>
+
+    <color name="dot_light_screen4">#e4b5fc</color>
+
+</resources>

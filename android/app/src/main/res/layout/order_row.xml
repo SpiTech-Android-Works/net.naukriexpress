@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/formGroupHorizontal"
+    android:background="@color/white"
+    android:padding="@dimen/dimen_2dp"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        style="@style/formGroupHorizontal">
+    <LinearLayout
+        android:id="@+id/itemContainer"
+        android:layout_weight="@integer/int_1"
+        style="@style/formGroupVertical"
+        android:background="@color/white"
+        android:padding="5dp">
+
+       <LinearLayout
+           style="@style/formGroupHorizontal">
+           <TextView
+               android:layout_weight="1"
+               android:id="@+id/order_id"
+               android:textSize="@dimen/dimen_15sp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="15dp"
+               android:text="Order No" />
+           <TextView
+               android:textColor="@color/green"
+               android:gravity="right"
+               android:layout_weight="1"
+               android:id="@+id/net_total"
+               android:textSize="@dimen/dimen_15sp"
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:layout_marginBottom="15dp"
+               android:text="Order No" />
+       </LinearLayout>
+        <TextView
+            android:id="@+id/order_date_time"
+            style="@style/lbl12"
+            android:text="Order Date Time" />
+    </LinearLayout>
+    <ImageView
+        android:id="@+id/btnDetails"
+        android:src="@drawable/ic_right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

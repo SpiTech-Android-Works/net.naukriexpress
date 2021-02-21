@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <include layout="@layout/include_common_app_bar" />
+
+    <ScrollView
+        style="@style/scrollView"
+        android:layout_below="@+id/common_app_bar"
+        android:padding="@dimen/dimen_8dp">
+
+        <LinearLayout
+            style="@style/formGroupVertical"
+            android:layout_marginTop="@dimen/dimen_20dp">
+
+            <TextView
+                style="@style/lbl_default"
+                android:text="Current Mobile Number"
+                android:textStyle="bold"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginBottom="@dimen/dimen_5dp"/>
+
+            <TextView
+                android:id="@+id/current_username"
+                style="@style/lbl_default"
+                android:text=""/>
+
+            <TextView
+                android:id="@+id/lbl_default_new"
+                style="@style/lbl_default"
+                android:text="Enter New Mobile Number :"
+                android:layout_marginTop="@dimen/dimen_20dp"
+                android:layout_marginBottom="@dimen/dimen_5dp"/>
+
+            <EditText
+                android:id="@+id/username"
+                style="@style/edit_text"
+                android:layout_height="@dimen/dimen_40dp"
+                android:hint="Mobile Number"
+                android:inputType="number"
+                android:maxLength="10"
+                android:padding="@dimen/dimen_5dp">
+                <requestFocus/>
+            </EditText>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSubmit"
+                style="@style/button_success"
+                android:layout_marginTop="30dp"
+                android:padding="12dp"
+                android:text="Change" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

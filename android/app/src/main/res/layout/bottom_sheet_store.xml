@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/dimen_20dp">
+   <TextView
+      style="@style/lbl16"
+       android:text="This content is paid, Please click on Buy Now for getting access to this content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="@dimen/dimen_30dp"
+        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/btnBuy"
+        android:text="Buy Now"
+        style="@style/button_success"
+        android:background="@color/green"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"/>
+</LinearLayout>

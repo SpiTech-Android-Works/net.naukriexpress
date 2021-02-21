@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/relative_layout">
+    <include layout="@layout/include_common_app_bar"/>
+    <LinearLayout
+        android:layout_below="@+id/common_app_bar"
+        android:padding="@dimen/screen_padding"
+        style="@style/formGroupVertical">
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewToppers"
+            style="@style/recyclerView"/>
+    </LinearLayout>
+    <include layout="@layout/include_progress_bar"/>
+</RelativeLayout>

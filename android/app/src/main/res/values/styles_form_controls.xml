@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="logo">
+        <item name="android:layout_width">110dp</item>
+        <item name="android:layout_height">110dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:layout_margin">@dimen/dimen_20dp</item>
+        <item name="android:src"> @mipmap/ic_launcher</item>
+    </style>
+
+    <style name="table_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="table_row">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="lbl_simple">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">1dp</item>
+    </style>
+
+    <style name="lbl">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">1dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:layout_margin">1dp</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+     </style>
+
+    <style name="lbl_default">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="lbl_black_bold">
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:capitalize">words</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:paddingLeft">8dp</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+    </style>
+
+    <style name="lbl20" parent="@style/lbl">
+        <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="lbl18" parent="@style/lbl">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+    <style name="lbl16" parent="@style/lbl">
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="lbl15" parent="@style/lbl">
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="lbl14" parent="@style/lbl">
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="lbl13" parent="@style/lbl">
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <style name="lbl12" parent="@style/lbl">
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="lbl8" parent="@style/lbl">
+        <item name="android:textSize">6sp</item>
+    </style>
+
+    <style name="lbl10" parent="@style/lbl">
+        <item name="android:textSize">10sp</item>
+    </style>
+
+    <style name="lblTag" parent="@style/lbl">
+        <item name="android:textSize">16sp</item>
+        <item name="android:elevation">@dimen/dimen_5dp</item>
+        <item name="android:layout_alignParentRight">true</item>
+        <item name="android:background">@color/red</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:padding">@dimen/dimen_5dp</item>
+    </style>
+
+    <style name="edit_text">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">@drawable/box_gray</item>
+    </style>
+
+    <style name="edit_text_multiline">
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dimen_40dp</item>
+        <item name="android:gravity">top|left</item>
+        <item name="android:background">@drawable/box_gray</item>
+    </style>
+
+    <style name="otp_edit_text">
+        <item name="android:layout_marginRight">5dp</item>
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/box</item>
+        <item name="android:layout_width">50dp</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <!--Buttons-->
+    <style name="button" parent="Widget.AppCompat.Button">
+        <item name="android:textAllCaps">false</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">@dimen/dimen_40dp</item>
+        <item name="android:layout_gravity">center_horizontal</item>
+        <item name="android:fontFamily">@font/raleway_regular</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">@dimen/dimen_15dp</item>
+        <item name="android:paddingRight">@dimen/dimen_15dp</item>
+    </style>
+    <style name="button_gray" parent="button">
+        <item name="android:background">@drawable/rounded_gray</item>
+        <item name="android:textColor">@android:color/background_dark</item>
+    </style>
+    <style name="button_warning" parent="button">
+        <item name="android:background">@drawable/border_orange</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="button_primary" parent="button">
+        <item name="android:background">@drawable/border_primary</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="button_success" parent="button">
+        <item name="android:background">@drawable/border_success</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+    <style name="button_danger" parent="button">
+        <item name="android:background">@drawable/border_red</item>
+        <item name="android:textColor">@color/colorPrimaryDark</item>
+    </style>
+
+    <!--Recycler View-->
+    <style name="recyclerView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+<!---Pannel-->
+    <style name="panel">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_marginBottom">8dp</item>
+        <item name="android:paddingBottom">10dp</item>
+        <item name="android:background">@drawable/box_gray</item>
+    </style>
+    <style name="panel_header">
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="panel_header_primary" parent="panel_header">
+        <item name="android:background">@color/colorPrimary</item>
+    </style>
+    <style name="panel_header_success" parent="panel_header">
+        <item name="android:background">@color/green</item>
+    </style>
+    <style name="panel_header_warning" parent="panel_header">
+        <item name="android:background">@color/orange</item>
+    </style>
+    <style name="panel_header_danger" parent="panel_header">
+        <item name="android:background">@color/red</item>
+    </style>
+
+    <!--Slider Layout-->
+    <style name="sliderLayout">
+        <item name="android:layout_height">150dp</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:padding">2dp</item>
+    </style>
+
+    <!--Slider Layout-->
+    <style name="scrollView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:scrollbars">none</item>
+    </style>
+
+    <!---ImageView-->
+    <style name="imageView">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">200dp</item>
+        <item name="android:scaleType">fitXY</item>
+        <item name="android:adjustViewBounds">true</item>
+        <item name="android:layout_marginBottom">@dimen/dimen_5dp</item>
+        <item name="android:src">@drawable/no_image</item>
+    </style>
+
+    <!---LinearLayout-->
+    <style name="formGroup">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:clickable">true</item>
+    </style>
+    <style name="formGroupHorizontal" parent="formGroup">
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="formGroupVertical" parent="formGroup">
+        <item name="android:orientation">vertical</item>
+    </style>
+
+    <style name="relative_layout">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+</resources>

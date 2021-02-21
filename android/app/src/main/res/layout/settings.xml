@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/include_common_app_bar" />
+    <ScrollView
+        android:layout_below="@+id/common_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        android:background="@color/white">
+        <LinearLayout
+            style="@style/screen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <RelativeLayout
+                android:id="@+id/boxProfile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/box_home"
+                android:clickable="true"
+                android:orientation="horizontal"
+                android:padding="10dp">
+                 <ImageView
+                     android:id="@+id/btnEdit"
+                     android:layout_alignParentRight="true"
+                     android:src="@drawable/ic_edit"
+                     android:layout_width="40dp"
+                     android:layout_height="40dp"/>
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/image"
+                    android:layout_width="70dp"
+                    android:layout_height="70dp"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/ic_profile" />
+                <LinearLayout
+                    android:layout_toRightOf="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:orientation="vertical"
+                    android:paddingLeft="10dp">
+
+                    <TextView
+                        android:id="@+id/name"
+                        style="@style/lbl16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:text="Name" />
+
+                    <TextView
+                        android:id="@+id/username"
+                        style="@style/lbl16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:text="Mobile or Email Id" />
+
+                    <TextView
+                        android:id="@+id/customer_id"
+                        style="@style/lbl16"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:padding="1dp"
+                        android:text="Student Id:"
+                        android:textColor="@color/red" />
+
+                </LinearLayout>
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/boxBookmarks"
+                style="@style/account_box">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/bookmark_12_12" />
+                <TextView
+                    style="@style/lbl12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:padding="10dp"
+                    android:text="My Bookmarks" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/ic_right_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boxStudentZone"
+                style="@style/account_box">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/bookmark_12_12" />
+
+
+
+                <TextView
+                    style="@style/lbl12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:padding="10dp"
+                    android:text="Student Zone" />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/ic_right_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boxFeedback"
+                style="@style/account_box">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/bookmark_12_12" />
+                <TextView
+                    style="@style/lbl12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:padding="10dp"
+                    android:text="Feedback | Suggestions | Complaint " />
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/ic_right_arrow" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boxWallet"
+                style="@style/account_box">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/bookmark_12_12" />
+
+                <TextView
+                    style="@style/lbl12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_weight="1"
+                    android:duplicateParentState="true"
+                    android:padding="10dp"
+                    android:text="My Wallet" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_weight="5"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/ic_right_arrow" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

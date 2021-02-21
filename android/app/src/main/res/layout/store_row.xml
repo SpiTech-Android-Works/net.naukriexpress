@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayoutView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="10dp"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        style="@style/formGroupVertical"
+        android:padding="5dp">
+    <LinearLayout
+       style="@style/formGroupHorizontal">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="@dimen/dimen_70dp"
+                android:layout_height="@dimen/dimen_70dp"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@mipmap/ic_launcher" />
+            <TextView
+                android:id="@+id/product_flag"
+                style="@style/lbl8"
+                android:padding="5dp"
+                android:textColor="@color/white"
+                android:layout_alignParentTop="true"
+                android:background="@color/red"
+                android:text="New"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"/>
+        </RelativeLayout>
+
+        <LinearLayout
+           style="@style/formGroupVertical"
+            android:layout_marginLeft="5dp">
+            <TextView
+                android:id="@+id/name"
+                style="@style/lbl14"
+                android:textStyle="bold"
+                android:text="PackageName" />
+
+            <TextView
+                android:id="@+id/short_description"
+                style="@style/lbl12"
+                android:text="Short Description" />
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/formGroupHorizontal">
+        <LinearLayout
+            android:layout_weight="1"
+            style="@style/formGroupHorizontal"
+            android:layout_height="match_parent">
+            <TextView
+                android:gravity="center_vertical"
+                android:id="@+id/old_price"
+                style="@style/lbl12"
+                android:textColor="@color/gray"
+                android:text="1000"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"/>
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:id="@+id/price"
+                style="@style/lbl_simple"
+                android:textSize="@dimen/dimen_12sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:text="900"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:id="@+id/lblSave"
+                android:layout_weight="1"
+                android:gravity="center_vertical|right"
+                style="@style/lbl_simple"
+                android:textSize="@dimen/dimen_12sp"
+                android:textColor="@color/gray"
+                android:text="Saved"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_weight="1"
+                android:gravity="center_vertical"
+                android:id="@+id/save"
+                style="@style/lbl_simple"
+                android:textSize="@dimen/dimen_12sp"
+                android:textStyle="bold"
+                android:textColor="@color/red"
+                android:text="100"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnBuy"
+            style="@style/button_primary"
+            android:text="Buy Now" />
+    </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/formGroupVertical"
+    android:id="@+id/linearLayout"
+    app:cardUseCompatPadding="true"
+    android:padding="@dimen/dimen_2dp">
+
+    <LinearLayout
+        android:padding="@dimen/dimen_2dp"
+        style="@style/formGroupHorizontal"
+        android:layout_marginRight="2dp">
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:id="@+id/photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_user"
+            android:focusable="true" />
+        <LinearLayout
+            android:layout_weight="1"
+            style="@style/formGroupVertical">
+            <TextView
+                style="@style/lbl10"
+                android:id="@+id/rank"
+                android:textStyle="bold"
+                android:text="Rank"
+                android:textColor="@color/red"/>
+            <TextView
+                style="@style/lbl10"
+                android:id="@+id/name"
+                android:text="Title"/>
+            <TextView
+                style="@style/lbl10"
+                android:id="@+id/online_status"
+                android:text="Offline"
+                android:textColor="@color/red"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

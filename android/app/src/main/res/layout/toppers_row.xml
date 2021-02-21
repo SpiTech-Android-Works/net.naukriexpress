@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="160dp"
+    android:layout_height="wrap_content"
+    android:id="@+id/linearLayout">
+    <LinearLayout
+        style="@style/box_gray"
+        android:layout_marginRight="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_marginRight="5dp"
+            android:clickable="true"
+            android:id="@+id/photo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:scaleType="fitCenter"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_user"/>
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                style="@style/lbl10"
+                android:id="@+id/rank"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Rank"
+                android:textColor="@color/red"/>
+            <TextView
+                style="@style/lbl10"
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"/>
+            <TextView
+                style="@style/lbl10"
+                android:id="@+id/online_status"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Offline"
+                android:textColor="@color/red"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

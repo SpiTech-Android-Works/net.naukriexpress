@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none"
+        style="@style/screen">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="60dp">
+
+        <LinearLayout
+            android:background="@color/white"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/title"
+                style="@style/lbl20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Job Title" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/lbl15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="No. of Post"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/posts"
+                    style="@style/lbl15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Job Title" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <TextView
+                    style="@style/lbl15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Publishing Date"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/publish_date"
+                    style="@style/lbl15"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Job Title" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                style="@style/lbl15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Eligibility Criteria : "
+                android:textStyle="bold" />
+            <WebView
+                android:id="@+id/eligibility"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                style="@style/lbl15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Job Details : "
+                android:textStyle="bold" />
+            <WebView
+                android:id="@+id/job_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:background="@color/white"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                style="@style/lbl15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Contact Details : "
+                android:textStyle="bold" />
+            <WebView
+                android:id="@+id/contact_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+            <include layout="@layout/include_test_packages" />
+        </LinearLayout>
+    </ScrollView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnApply"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal|center"
+        android:background="@color/colorPrimaryDark"
+        android:text="Apply"
+        android:textColor="@color/white" />
+</RelativeLayout>

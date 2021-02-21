@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.chat.group.GroupManage">
+
+    <include layout="@layout/include_common_app_bar" />
+
+    <ScrollView
+        android:layout_below="@+id/common_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                style="@style/screen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_light">
+
+                <ImageView
+                    android:id="@+id/image"
+                    android:layout_width="match_parent"
+                    android:layout_height="140dp"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/ic_image_placeholder" />
+
+                <ImageView
+                    android:id="@+id/btnImage"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:src="@drawable/ic_camera" />
+            </RelativeLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin">
+
+                <EditText
+                    android:id="@+id/name"
+                    style="@style/edit_text"
+                    android:hint="Group Name" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/vertical_margin">
+                <EditText
+                    android:id="@+id/description"
+                    style="@style/edit_text"
+                    android:hint="Group Description"
+                    android:inputType="textMultiLine"
+                    android:lines="10" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSubmit"
+                style="@style/button_primary"
+                android:layout_marginTop="20dp"
+                android:text="Save" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

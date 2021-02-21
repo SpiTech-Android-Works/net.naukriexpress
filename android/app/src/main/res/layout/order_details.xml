@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/relative_layout"
+    android:background="@color/white">
+
+    <include layout="@layout/include_common_app_bar" />
+
+    <LinearLayout
+        style="@style/formGroupVertical"
+        android:layout_below="@+id/common_app_bar"
+        android:padding="@dimen/dimen_8dp">
+
+        <LinearLayout style="@style/formGroupHorizontal">
+
+            <TextView
+                style="@style/lbl14"
+                android:layout_weight="1"
+                android:text="Order Id" />
+
+            <TextView
+                android:id="@+id/order_id"
+                style="@style/lbl_simple"
+                android:layout_weight="1"
+                android:text="Order Id" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/formGroupHorizontal">
+
+            <TextView
+                android:layout_weight="1"
+                style="@style/lbl14"
+                android:text="Order Datetime" />
+
+            <TextView
+                android:id="@+id/order_date"
+                style="@style/lbl_simple"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/formGroupHorizontal">
+
+            <TextView
+                android:layout_weight="1"
+                style="@style/lbl14"
+                android:text="Order Amount" />
+
+            <TextView
+                android:id="@+id/amount"
+                style="@style/lbl_simple"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/formGroupHorizontal"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:layout_marginBottom="@dimen/dimen_10dp"
+            android:background="@color/primary_orange"
+            android:padding="@dimen/dimen_5dp">
+
+            <TextView
+                style="@style/lbl14"
+                android:layout_weight="1"
+                android:gravity="center_horizontal"
+                android:text="Course/Package Details"
+                android:textColor="@color/white" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/formGroupHorizontal">
+            <TextView
+                android:gravity="center"
+                android:textStyle="bold"
+                android:id="@+id/package_name"
+                style="@style/lbl14"
+                android:layout_weight="1"
+                android:text="Course Name" />
+        </LinearLayout>
+
+        <LinearLayout style="@style/formGroupHorizontal"
+            android:layout_marginTop="@dimen/dimen_10dp">
+
+            <WebView
+                android:id="@+id/package_details"
+                style="@style/lbl_simple"
+                android:layout_weight="1"
+                android:text="" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <include layout="@layout/include_progress_bar" />
+</RelativeLayout>

@@ -1,0 +1,85 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Base.Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorPrimary">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">#FFFFFF</item>
+        <item name="colorSecondary">#2962FF</item>
+        <item name="colorSecondaryVariant">#0039CB</item>
+        <item name="colorOnSecondary">#FFFFFF</item>
+        <item name="colorError">#F44336</item>
+        <item name="colorOnError">#FFFFFF</item>
+        <item name="colorSurface">#FFFFFF</item>
+        <item name="colorControlNormal">#FFFFFF</item>
+        <item name="android:windowBackground">@color/windowBackground</item>
+        <item name="android:scrollbarThumbVertical">@android:color/transparent</item>
+
+    </style>
+
+    <style name="Widget.MyApp.TextInputLayout" parent="Widget.MaterialComponents.TextInputLayout.FilledBox">
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">0dp</item>
+    </style>
+
+    <style name="NoActionBar" parent="AppTheme">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+   <!-- <style name="MyActionBar" parent="@android:style/Widget.Holo.Light.ActionBar">
+        <item name="android:background">@color/colorPrimaryDark</item>
+    </style>-->
+
+    <style name="box_gray">
+        <item name="android:padding">5dp</item>
+        <item name="android:background">@drawable/box_gray</item>
+    </style>
+
+    <style name="ToolbarTitleExpanded" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">25sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="ToolbarTitleCollapsed" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--<style name="Base.Widget.Design.TabLayout" parent="android:Widget">
+        <item name="tabBackground">@drawable/tab_background</item>
+        <item name="tabIndicatorColor">@color/selected_tab</item>
+        <item name="tabIndicatorHeight">2dp</item>
+    </style>-->
+
+    <style name="fixed_tab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">fixed</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="tabPaddingStart">10dp</item>
+        <item name="tabPaddingEnd">10dp</item>
+    </style>
+
+    <style name="scrollable_tab">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="tabGravity">fill</item>
+        <item name="tabMode">scrollable</item>
+        <item name="tabIndicatorFullWidth">true</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:paddingLeft">5dp</item>
+        <item name="android:clipToPadding">false</item>
+        <item name="tabPaddingStart">10dp</item>
+        <item name="tabPaddingEnd">10dp</item>
+    </style>
+
+
+</resources>

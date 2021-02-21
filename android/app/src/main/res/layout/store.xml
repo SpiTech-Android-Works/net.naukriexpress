@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+    <include layout="@layout/include_common_app_bar"/>
+    <SearchView
+        android:layout_below="@+id/common_app_bar"
+        android:id="@+id/searchView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/orange"
+        app:queryHint="Search Course/Package Name"
+        />
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/searchView"
+        android:padding="@dimen/dimen_8dp"
+        android:numColumns="2"
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+    <include layout="@layout/include_empty_view"/>
+    <include layout="@layout/include_progress_bar"/>
+</RelativeLayout>

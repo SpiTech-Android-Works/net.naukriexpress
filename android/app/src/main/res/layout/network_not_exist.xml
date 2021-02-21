@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.other.NetworkNotExist"
+    android:background="@color/white"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_marginTop="@dimen/dimen_50dp"
+        android:src="@drawable/internet_not_exist"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"/>
+
+    <TextView
+        style="@style/lbl20"
+        android:text="There is no Internet Connection..."
+        android:gravity="center"
+        />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_marginTop="@dimen/dimen_50dp"
+      style="@style/button_success"
+        android:id="@+id/btnTry"
+        android:text="Try Again"
+        android:layout_width="150dp"/>
+
+</LinearLayout>

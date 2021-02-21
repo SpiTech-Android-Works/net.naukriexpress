@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/box_common_margin"
+            android:background="@drawable/box_home"
+            android:orientation="vertical"
+            android:padding="@dimen/box_common_padding">
+
+            <LinearLayout style="@style/box_header">
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:text="Topic Wise Test" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerTopicWise"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarSize="0dp"
+                android:scrollbars="horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/membershipContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/box_common_margin"
+            android:background="@drawable/box_home"
+            android:orientation="vertical">
+            <LinearLayout style="@style/box_header">
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:text="GDC Plus Membership" />
+            </LinearLayout>
+            <com.glide.slider.library.SliderLayout
+                android:id="@+id/mmebershipSlider"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:padding="2dp"
+                app:auto_cycle="true"
+                app:indicator_visibility="visible"
+                app:pager_animation="Stack"
+                app:pager_animation_span="1100" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

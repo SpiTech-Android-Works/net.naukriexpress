@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+    <include layout="@layout/include_common_app_bar"/>
+    <androidx.viewpager.widget.ViewPager android:id="@+id/viewPager"
+        android:layout_below="@+id/common_app_bar"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        style="@style/screen"/>
+    <ImageView
+        android:background="@color/gray"
+        android:id="@+id/img_next"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_right_arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentRight="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        />
+    <ImageView
+        android:background="@color/gray"
+        android:visibility="gone"
+        android:id="@+id/img_back"
+        android:layout_width="20dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ic_left_arrow"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"/>
+    <include layout="@layout/include_empty_view"/>
+    <include layout="@layout/include_progress_bar"/>
+</RelativeLayout>

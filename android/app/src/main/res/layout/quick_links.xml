@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/panel">
+
+<LinearLayout style="@style/box_header"
+    >
+    <TextView
+        style="@style/lbl_black_bold"
+        android:text="Quick Links" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/job"
+                style="@style/quick_link_icon">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    style="@style/home_quick_link_icon"
+                    android:src="@drawable/job" />
+
+                <TextView
+                    style="@style/lbl12"
+                    android:gravity="center_horizontal"
+                    android:text="Jobs"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/news"
+                style="@style/quick_link_icon">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    style="@style/home_quick_link_icon"
+                    android:src="@drawable/news" />
+
+                <TextView
+                    style="@style/lbl12"
+                    android:gravity="center_horizontal"
+                    android:text="News"/>
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:id="@+id/videos"
+                style="@style/quick_link_icon">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    style="@style/home_quick_link_icon"
+                    android:src="@drawable/video" />
+
+                <TextView
+                    style="@style/lbl12"
+                    android:gravity="center_horizontal"
+                    android:text="Videos"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/gallery"
+                style="@style/quick_link_icon">
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    style="@style/home_quick_link_icon"
+                    android:src="@drawable/gallery" />
+                <TextView
+                    style="@style/lbl12"
+                    android:gravity="center_horizontal"
+                    android:text="Gallery"/>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/downloads"
+                style="@style/quick_link_icon">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    style="@style/home_quick_link_icon"
+                    android:src="@drawable/download" />
+
+                <TextView
+                    style="@style/lbl12"
+                    android:gravity="center_horizontal"
+                    android:text="Downloads"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/address"
+                style="@style/quick_link_icon">
+
+                <ImageView
+                    android:layout_gravity="center_horizontal"
+                    style="@style/home_quick_link_icon"
+                    android:src="@drawable/address" />
+
+                <TextView
+                    style="@style/lbl12"
+                    android:gravity="center_horizontal"
+                    android:text="Address"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

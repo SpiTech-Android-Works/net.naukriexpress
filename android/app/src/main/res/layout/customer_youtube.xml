@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!--  Youtube Player Fragment  -->
+    <fragment
+        android:id="@+id/youtube_player_fragment"
+        android:name="com.google.android.youtube.player.YouTubePlayerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dimen_60dp"/>
+
+    <LinearLayout
+        android:layout_alignParentBottom="true"
+        android:id="@+id/video_control"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_60dp"
+        android:background="#444"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_5dp">
+        <ImageButton
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_videoplay" />
+        <SeekBar
+            android:layout_weight="1"
+            android:id="@+id/video_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dimen_20dp"
+            android:layout_margin="10dp"
+            android:max="100"
+            android:progress="0" />
+        <TextView
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:id="@+id/play_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="--:--"
+            android:textColor="@android:color/white" />
+        <ImageButton
+            android:layout_marginLeft="@dimen/dimen_10dp"
+            android:id="@+id/btn_resize"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/ic_maximize" />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".ui.auth.Login">
+
+    <include layout="@layout/include_common_app_bar" />
+    <ScrollView
+        android:layout_below="@+id/common_app_bar"
+        style="@style/scrollView"
+        android:padding="@dimen/screen_padding">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="sans-serif"
+            android:text="OTP Verification"
+            android:textColor="@color/black"
+            android:textSize="20sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp"
+            android:gravity="center_horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                style="@style/lbl14"
+                android:text="OTP Sent To : " />
+            <TextView
+                style="@style/lbl14"
+                android:layout_width="wrap_content"
+                android:id="@+id/lbl_username"
+                android:layout_marginBottom="20dp"
+                android:gravity="right"
+                android:text="spsoni.acc@gmail.com"
+                android:textColor="@color/blue"/>
+            <ImageView
+                android:id="@+id/btnChange"
+                android:layout_marginLeft="@dimen/dimen_10dp"
+                android:src="@drawable/ic_pencil"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/otp_timer"
+            style="@style/lbl16"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:text="01:00"/>
+        <TextView
+            android:id="@+id/timer"
+            style="@style/lbl16"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:text="00:00"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/otp1"
+                    style="@style/otp_edit_text">
+
+                    <requestFocus></requestFocus>
+                </androidx.appcompat.widget.AppCompatEditText>
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/otp2"
+                    style="@style/otp_edit_text" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/otp3"
+                    style="@style/otp_edit_text" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/otp4"
+                    style="@style/otp_edit_text" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/otp5"
+                    style="@style/otp_edit_text" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/otp6"
+                    style="@style/otp_edit_text" />
+            </LinearLayout>
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnSubmit"
+                style="@style/button_primary"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="15dp"
+                android:text="Verify" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/resendLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Don't received otp? "
+                android:textColor="@color/black" />
+
+            <TextView
+                android:id="@+id/btnResend"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="RESEND"
+                android:textColor="@color/blue" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

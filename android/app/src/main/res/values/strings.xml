@@ -1,0 +1,101 @@
+<resources>
+
+    <string name="youtube_api_key">AIzaSyCalS7Z2uHm8okQX6-mqQPPzG7aRjxDGZw</string>
+    <string name="default_notification_channel_id">123</string>
+
+
+    <string name="navigation_drawer_open">"Open"</string>
+    <string name="navigation_drawer_close">"Close"</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_bookmarks">My Bookmarks</string>
+    <string name="menu_downloads">My Downloads</string>
+    <string name="menu_order">My Orders</string>
+    <string name="menu_rating">Rate Us</string>
+    <string name="menu_share">Share App</string>
+    <string name="menu_invite">Invite &amp; Earn</string>
+    <string name="menu_about_us">About Us</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="menu_privacy_policy">Privacy &amp; Policy</string>
+    <string name="menu_terms_condition">Terms &amp; Conditions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="job_details">Job Details</string>
+    <string name="similar_jobs">Similar Jobs</string>
+    <string name="news_details">News Details</string>
+    <string name="similar_news">Similar News</string>
+    <string name="seminar_details">Seminar Details</string>
+    <string name="similar_seminar">Similar Seminar</string>
+    <string name="scholarship_details">Scholarship Details</string>
+    <string name="similar_scholarship">Similar Scholarship</string>
+    <string name="admission_details">Admission Details</string>
+    <string name="similar_admission">Similar Admission</string>
+    <string name="facts_details">Fact Details</string>
+    <string name="similar_facts">Similar Facts</string>
+
+    <string name="mock_test">Mock</string>
+    <string name="topic_wise_test">Topic Wise</string>
+    <string name="all_india_test">All India Test</string>
+    <string name="seminar">Seminar</string>
+    <string name="scholarship">Scholarship</string>
+    <string name="admission">Admission Alert</string>
+    <string name="job">Job</string>
+    <string name="news">News</string>
+    <string name="jobs">Jobs</string>
+    <string name="no_data_available">There is no records.</string>
+
+    <string name="test_answer">Test Answer</string>
+    <string name="chat_students">Students</string>
+    <string name="chat_tutor">Tutor</string>
+    <string name="chat_group">Group</string>
+    <string name="title_activity_payment_success">PaymentSuccess</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="tab_overview">Overview</string>
+    <string name="tab_content">Contents</string>
+
+    <string name="tab_package">Package</string>
+    <string name="tab_book">Book</string>
+    <string name="tab_membership">Membership</string>
+    <string name="full_name">Full Name *</string>
+    <string name="save">Save</string>
+    <string name="app_update_available">App Update Available</string>
+    <string name="we_have_fixed_some_issues_and_added_some_cool_features_in_this_update">We have fixed some issues and added some cool features in this update</string>
+    <string name="click_to_update_now">Click To Update Now</string>
+    <string name="course_packages">Course/Packages</string>
+    <string name="batches">Batches</string>
+    <string name="books_amp_publications"><![CDATA[Books & Publications]]></string>
+    <string name="videos">Videos</string>
+    <string name="today_s_top_10_toppers">Today\'s Top 10 Toppers</string>
+    <string name="view_all">View All</string>
+    <string name="today_s_joinee">Today\'s Joinee</string>
+    <string name="connect_with_us">Connect With Us</string>
+    <string name="youtube">Youtube</string>
+    <string name="instagram">Instagram</string>
+    <string name="telegram">Telegram</string>
+    <string name="_200_marks">200 Marks</string>
+    <string name="_200_students">200 Students</string>
+    <string name="d">(D)</string>
+    <string name="e">(E)</string>
+    <string name="no_of_questions">No. of Questions</string>
+    <string name="time_in_minutes">Time (In Minutes)</string>
+    <string name="total_marks">Total Marks</string>
+    <string name="_100">100</string>
+    <string name="general_instructions">General Instructions</string>
+    <string name="start_test">START TEST</string>
+
+
+</resources>

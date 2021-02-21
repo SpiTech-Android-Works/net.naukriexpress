@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <LinearLayout
+       style="@style/formGroupVertical">
+
+        <LinearLayout
+            android:id="@+id/header"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorPrimaryDark"
+            android:orientation="horizontal"
+            android:padding="2dp"
+            android:weightSum="3">
+
+            <LinearLayout
+              style="@style/formGroupVertical"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/questionNo"
+                    style="@style/lbl_simple"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="31/100"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+               style="@style/formGroupVertical"
+                android:layout_gravity="center"
+                android:layout_weight="1">
+
+                <TextView
+                    android:id="@+id/timer"
+                    style="@style/lbl_simple"
+                    android:layout_margin="1dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:gravity="center"
+                    android:text="02:00:23"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/boxSubmit"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:clickable="true"
+                android:gravity="center_horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="1dp"
+                    android:background="@color/colorPrimaryDark"
+                    android:duplicateParentState="true"
+                    android:gravity="center"
+                    android:text="SUBMIT"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+           style="@style/formGroupHorizontal"
+            android:background="@color/colorPrimary"
+            android:padding="2dp"
+            android:weightSum="3">
+
+            <TextView
+                android:id="@+id/negativeMarks"
+                style="@style/lbl_simple"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="-Ve=1"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/positiveMarks"
+                style="@style/lbl_simple"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="+Ve=1"
+                android:textColor="@color/white" />
+
+            <ImageView
+                android:id="@+id/questionPad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:src="@drawable/ic_list" />
+        </LinearLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/questionListing"
+            style="@style/recyclerView" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical">
+
+                <WebView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/instruction"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <WebView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/question"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+
+                <TableLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical">
+
+                        <RadioButton
+                            android:text="(A)"
+                            android:id="@+id/rdb_option_a"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <WebView
+                            android:layout_weight="1"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="@dimen/dimen_10dp"
+                            android:id="@+id/option_a"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical">
+
+                        <RadioButton
+                            android:text="(B)"
+                            android:id="@+id/rdb_option_b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <WebView
+                            android:layout_weight="1"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="@dimen/dimen_10dp"
+                            android:id="@+id/option_b"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical">
+
+                        <RadioButton
+                            android:text="(C)"
+                            android:id="@+id/rdb_option_c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <WebView
+                            android:layout_weight="1"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="@dimen/dimen_10dp"
+                            android:id="@+id/option_c"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+
+                    <TableRow
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical">
+
+                        <RadioButton
+                            android:text="@string/d"
+                            android:id="@+id/rdb_option_d"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <WebView
+                            android:layout_weight="1"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="@dimen/dimen_10dp"
+                            android:id="@+id/option_d"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                    <TableRow
+                        android:visibility="gone"
+                        android:id="@+id/option_e_layout"
+                        android:layout_width="fill_parent"
+                        android:layout_height="fill_parent"
+                        android:gravity="center_vertical">
+
+                        <RadioButton
+                            android:text="@string/e"
+                            android:id="@+id/rdb_option_e"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+
+                        <WebView
+                            android:layout_weight="1"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginEnd="@dimen/dimen_10dp"
+                            android:id="@+id/option_e"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content" />
+                    </TableRow>
+                </TableLayout>
+
+                <TextView
+                    android:visibility="gone"
+                    android:id="@+id/lnkReport"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:drawableLeft="@drawable/ic_report"
+                    android:drawablePadding="5dp"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="Report"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <LinearLayout
+       style="@style/formGroupHorizontal"
+        android:layout_alignParentBottom="true"
+        android:background="@color/colorPrimaryDark"
+        android:weightSum="3">
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/btnBack"
+            style="@style/testStartButton"
+            android:background="@color/colorPrimary"
+            android:text="Previous" />
+
+        <TextView
+            android:textColor="@color/white"
+            android:id="@+id/btnClear"
+            style="@style/testStartButton"
+            android:background="@color/red"
+            android:text="Clear/Skip" />
+
+        <TextView
+            android:id="@+id/btnSave"
+            style="@style/testStartButton"
+            android:background="@color/green"
+            android:text="Next"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

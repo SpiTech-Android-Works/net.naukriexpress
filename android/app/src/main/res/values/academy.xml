@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE resources
+    [<!ENTITY link_twitter "">
+        <!ENTITY link_facebook "">
+        <!ENTITY link_insta "">
+        <!ENTITY link_youtube "">
+        <!ENTITY link_telegram "">
+        <!ENTITY link_app "https://play.google.com/store/apps/details?id=app.spitech">]>
+<resources>
+    <string name="app_name1">SpiTech Acadmey App</string>
+    <string name="company_name">SpiTech Acadmey App</string>
+    <string name="contact_email">spitechsoft@gmail.com</string>
+    <string name="contact_whatsapp">9300000616</string>
+    <string name="welcome_string">Welcome To SpiTech Acadmey</string>
+
+    <string name="app_sharing_message">Hi! I am using this awesome app for preparation of Exams. You can join by this link &link_app;</string>
+
+    <string name="link_telegram">&link_telegram;</string>
+    <string name="link_twitter">&link_twitter;</string>
+    <string name="link_facebook">&link_facebook;</string>
+    <string name="link_insta">&link_insta;</string>
+    <string name="link_youtube">&link_youtube;</string>
+    <string name="link_gdc_app">&link_app;</string>
+
+    <string name="facebook_link_sharing_msg">Follow our facebook page for getting latest update related to Exams. &link_facebook;</string>
+    <string name="youtube_link_sharing_msg">Subscribe our youtube channel for getting latest update related to Exams. &link_youtube;</string>
+    <string name="insta_link_sharing_msg">Follow our instagram page for getting latest update related to Exams. &link_insta;</string>
+    <string name="gdc_link_sharing_msg">Download our aap page for getting latest update related to Exams. &link_app;</string>
+
+    <string name="whatsapp_join_default_msg">Hello SpiTech Acadmey, Please join me in your academic group</string>
+
+    <string name="whatsapp_default_msg_app_maintenance">Hello Team, Please let me know when your app maintenance will be finished</string>
+
+</resources>

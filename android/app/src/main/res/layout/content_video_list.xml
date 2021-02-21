@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/windowBackground">
+<include layout="@layout/include_common_app_bar"/>
+   <LinearLayout
+       android:layout_below="@+id/common_app_bar"
+      style="@style/formGroupVertical">
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+          <com.potyvideo.library.AndExoPlayerView
+              android:id="@+id/videoView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              app:andexo_aspect_ratio="aspect_16_9"
+              app:andexo_full_screen="true"
+              app:andexo_play_when_ready="true"
+              app:andexo_show_controller="true"
+              app:andexo_resize_mode="Fit" />
+          <ProgressBar
+              android:id="@+id/videoProgressBar"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_centerInParent="true"/>
+      </RelativeLayout>
+       <LinearLayout
+           android:id="@+id/videoList"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+           <TextView
+               style="@style/lbl16"
+               android:textColor="@color/white"
+               android:background="@color/orange"
+               android:padding="@dimen/dimen_10dp"
+               android:textStyle="bold"
+               android:text="All Videos"
+               />
+           <androidx.recyclerview.widget.RecyclerView
+               android:padding="@dimen/dimen_8dp"
+               style="@style/recyclerView"
+               android:id="@+id/recyclerView"/>
+       </LinearLayout>
+   </LinearLayout>
+<include layout="@layout/include_empty_view"/>
+<include layout="@layout/include_progress_bar"/>
+</RelativeLayout>

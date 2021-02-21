@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/windowBackground">
+
+    <androidx.appcompat.widget.Toolbar
+        android:background="@color/colorPrimaryDark"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        app:navigationIcon="?attr/homeAsUpIndicator"
+        app:popupTheme="@style/AppTheme.PopupOverlay">
+
+        <LinearLayout
+            style="@style/formGroupHorizontal">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/toolbar_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Title"
+                android:textColor="@android:color/background_light"
+                android:textSize="18sp" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_marginRight="@dimen/dimen_20dp"
+                android:id="@+id/btnShare"
+                android:src="@drawable/ic_share_white"
+                android:layout_width="@dimen/dimen_30dp"
+                android:layout_height="@dimen/dimen_30dp"/>
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <LinearLayout
+        style="@style/formGroupVertical"
+        android:layout_height="match_parent" >
+        <TextView
+            android:id="@+id/pdfTitle"
+            style="@style/lbl_default"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/orange"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/dimen_10dp"
+            android:textColor="@color/white"
+            android:textSize="@dimen/dimen_16dp" />
+
+        <com.github.barteksc.pdfviewer.PDFView
+            android:id="@+id/pdfView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+</LinearLayout>
+
+

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+    <include layout="@layout/include_common_app_bar"/>
+    <LinearLayout
+        android:padding="@dimen/dimen_8dp"
+        android:layout_below="@+id/common_app_bar"
+       style="@style/formGroupVertical">
+        <TextView
+            android:id="@+id/txtPackageName"
+            android:padding="@dimen/dimen_5dp"
+            android:gravity="center_horizontal"
+            android:text="Package Name"
+            style="@style/lbl20"/>
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:id="@+id/txtAmount"
+            android:padding="@dimen/dimen_5dp"
+            android:gravity="center_horizontal"
+            android:text="Rs. 00.00"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/dimen_22sp"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:padding="@dimen/dimen_5dp"
+                android:gravity="center_horizontal"
+                android:text="UPI Payment"
+                style="@style/lbl20"/>
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:id="@+id/phone_pay_layout"
+            style="@style/formGroupHorizontal">
+            <ImageView
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/phone_pay"
+                style="@style/imageView"
+                android:layout_width="@dimen/dimen_45dp"
+                android:layout_height="@dimen/dimen_40dp"/>
+            <ImageView
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:layout_marginTop="4dp"
+                android:src="@drawable/google_pay"
+                style="@style/imageView"
+                android:layout_width="@dimen/dimen_45dp"
+                android:layout_height="@dimen/dimen_40dp"/>
+            <ImageView
+                android:layout_marginTop="4dp"
+                android:src="@drawable/paytm"
+                style="@style/imageView"
+                android:layout_width="@dimen/dimen_45dp"
+                android:layout_height="@dimen/dimen_40dp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dimen_10dp"
+            android:padding="@dimen/dimen_8dp"
+            style="@style/formGroupHorizontal">
+            <TextView
+                android:layout_weight="1"
+                android:id="@+id/account_upi"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:padding="@dimen/dimen_5dp"
+                android:layout_height="match_parent"
+                android:text="Account UPI"
+                style="@style/lbl18"/>
+            <TextView
+
+                android:background="@color/green"
+                android:textColor="@color/white"
+                android:padding="@dimen/dimen_10dp"
+                android:id="@+id/btnPayNow"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:text="Pay Now"
+                style="@style/lbl16"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_marginTop="@dimen/dimen_20dp"
+            android:id="@+id/bank_account_details_layout"
+          style="@style/formGroupVertical">
+            <TextView
+                android:textColor="@color/white"
+                android:background="@color/orange"
+                android:padding="@dimen/dimen_5dp"
+                android:gravity="center_horizontal"
+                android:text="Bank Account Payment"
+                style="@style/lbl20"/>
+        <TextView
+            android:id="@+id/bank_account_details"
+            android:padding="@dimen/dimen_5dp"
+            android:layout_height="match_parent"
+            android:text="Bank Details"
+            android:textSize="@dimen/dimen_16dp"
+            android:textColor="@color/black"
+           android:layout_width="match_parent"/>
+        </LinearLayout>
+        <TextView
+            android:id="@+id/note"
+            android:layout_marginTop="@dimen/dimen_15dp"
+            android:padding="@dimen/dimen_5dp"
+            android:layout_height="match_parent"
+            android:textColor="@color/red"
+            style="@style/lbl14"/>
+    </LinearLayout>
+    <include layout="@layout/include_progress_bar"/>
+</RelativeLayout>

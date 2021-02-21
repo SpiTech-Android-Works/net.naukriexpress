@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".ui.home.Home"
+    android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+       <LinearLayout
+           android:visibility="gone"
+           android:id="@+id/appUpdatesContainer"
+           android:clickable="true"
+           style="@style/formGroupHorizontal"
+           android:layout_marginBottom="10dp"
+           android:padding="10dp"
+           android:background="@color/colorPrimaryDark"
+           android:focusable="true">
+           <de.hdodenhof.circleimageview.CircleImageView
+               android:src="@mipmap/ic_launcher"
+               android:layout_width="@dimen/dimen_60dp"
+               android:layout_height="match_parent"
+               android:layout_marginEnd="@dimen/dimen_10dp"/>
+           <LinearLayout
+               style="@style/formGroupVertical">
+               <TextView
+                   style="@style/lbl16"
+                   android:textStyle="bold"
+                   android:duplicateParentState="true"
+                   android:text="@string/app_update_available"
+                   android:textColor="@color/white"/>
+               <TextView
+                   style="@style/lbl12"
+                   android:duplicateParentState="true"
+                   android:text="@string/we_have_fixed_some_issues_and_added_some_cool_features_in_this_update"
+                   android:textColor="@color/white"/>
+               <TextView
+                   android:id="@+id/btnUpdate"
+                   style="@style/lbl14"
+                   android:textStyle="bold"
+                   android:duplicateParentState="true"
+                   android:text="@string/click_to_update_now"
+                   android:textColor="@color/white"/>
+           </LinearLayout>
+       </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/packageContainer"
+            style="@style/panel">
+            <LinearLayout style="@style/panel_header_warning">
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:text="@string/course_packages" />
+            </LinearLayout>
+            <com.glide.slider.library.SliderLayout
+                android:id="@+id/packageSlider"
+                style="@style/sliderLayout"
+                app:auto_cycle="true"
+                app:indicator_visibility="visible"
+                app:pager_animation="Accordion"
+                app:pager_animation_span="1100" />
+        </LinearLayout>
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/batchContainer"
+            style="@style/panel">
+            <LinearLayout style="@style/panel_header_warning">
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:text="@string/batches" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewBatch"
+                style="@style/recyclerView"/>
+        </LinearLayout>
+        <include layout="@layout/quick_links" />
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/box_daily_quiz"
+            style="@style/formGroupVertical"
+            android:layout_marginBottom="@dimen/box_common_margin">
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:adjustViewBounds="true"
+                android:background="@drawable/shadow_rect"
+                android:duplicateParentState="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/front_daily_quiz" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/publicationContainer"
+            style="@style/panel">
+            <LinearLayout style="@style/box_header">
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:text="@string/books_amp_publications" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerBooks"
+                style="@style/recyclerView"
+                android:scrollbars="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/videoContainer"
+            style="@style/panel">
+            <LinearLayout style="@style/box_header">
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:text="@string/videos" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewVideos"
+                style="@style/recyclerView"
+                android:scrollbars="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/toppersContainerView"
+            style="@style/panel">
+
+            <LinearLayout
+                style="@style/box_header2"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:text="@string/today_s_top_10_toppers" />
+
+                <TextView
+                    android:id="@+id/btnAllToppers"
+                    style="@style/box_header_title_right"
+                    android:layout_width="match_parent"
+                    android:layout_weight="2"
+                    android:background="@color/white"
+                    android:text="@string/view_all" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewToppers"
+                style="@style/recyclerView"
+                android:scrollbars="horizontal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/recentlyContainerView"
+            style="@style/panel">
+
+            <LinearLayout style="@style/box_header">
+
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:text="@string/today_s_joinee" />
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerViewRecentlyJoined"
+                style="@style/recyclerView"
+                android:scrollbars="horizontal" />
+        </LinearLayout>
+
+
+        <LinearLayout
+           style="@style/panel"
+            android:layout_marginTop="@dimen/box_common_margin">
+
+            <LinearLayout style="@style/box_header">
+
+                <TextView
+                    style="@style/lbl_black_bold"
+                    android:text="@string/connect_with_us" />
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/formGroupHorizontal"
+                android:gravity="center"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/connectYoutube"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:focusable="true">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_circle_youtube" />
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="@string/youtube"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/connectFacebook"
+                    style="@style/formGroupVertical"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:focusable="true">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_circle_facebook" />
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="Facebook"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/connectInsta"
+                    style="@style/formGroupVertical"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:focusable="true">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_circle_instagram" />
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="@string/instagram"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/formGroupHorizontal"
+                android:gravity="center"
+                android:weightSum="3">
+
+                <LinearLayout
+                    android:id="@+id/connectTelegram"
+                    style="@style/formGroupVertical"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:focusable="true">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_circle_telegram" />
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="@string/telegram"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/connectTwitter"
+                    style="@style/formGroupVertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_circle_twitter" />
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="Twitter"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/connectWhatsApp"
+                    style="@style/formGroupVertical"
+                    android:layout_weight="1"
+                    android:gravity="center">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_circle_whatsapp" />
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="WhatsApp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/formGroupHorizontal"
+                android:gravity="center"
+                >
+
+                <LinearLayout
+                    android:id="@+id/connectEmail"
+                    style="@style/formGroupVertical"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_circle_mail"
+                        android:layout_width="35dp"/>
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="Send Email"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:id="@+id/connectContactUs"
+                    style="@style/formGroupVertical"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_circle_call" />
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="Contact Us"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/connectHelp"
+                    style="@style/formGroupVertical"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:gravity="center">
+
+                    <ImageView
+                        style="@style/home_connect_with_us_icon"
+                        android:src="@drawable/ic_help" />
+
+                    <TextView
+                        style="@style/lbl12"
+                        android:gravity="center"
+                        android:text="Help"/>
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>
+

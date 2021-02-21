@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:padding="@dimen/dimen_10dp">
+
+    <LinearLayout
+        style="@style/formGroupVertical"
+        android:background="@color/white"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_marginBottom="@dimen/dimen_20dp"
+            style="@style/imageView"
+            android:src="@drawable/alert"/>
+
+        <TextView
+            android:textSize="@dimen/dimen_15sp"
+            android:text="This account is logged in on another device. To logout from all the device click on below Logot button."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_marginTop="@dimen/dimen_20dp"
+            style="@style/formGroupHorizontal">
+            <TextView
+                android:padding="@dimen/dimen_5dp"
+                style="@style/lbl12"
+                android:text="Device Name"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:padding="@dimen/dimen_5dp"
+                android:id="@+id/device_name"
+                android:layout_weight="1"
+                android:textSize="@dimen/dimen_20dp"
+                style="@style/lbl12"
+                android:text="Device Name"
+                android:layout_width="match_parent"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="@dimen/dimen_40dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Logout From All Other Devices"
+            android:id="@+id/btnLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+
+</RelativeLayout>

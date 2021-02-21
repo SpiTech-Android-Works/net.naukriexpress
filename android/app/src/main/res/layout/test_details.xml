@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   style="@style/relative_layout"
+    android:background="@color/white">
+    <ScrollView
+        style="@style/scrollView"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="@dimen/dimen_60dp">
+        <LinearLayout
+            style="@style/formGroupVertical"
+            android:padding="@dimen/screen_padding">
+            <LinearLayout
+                style="@style/formGroupVertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/box_common_margin">
+                <LinearLayout style="@style/box_header">
+
+                    <TextView
+                        style="@style/lbl_black_bold"
+                        android:text="Exam Pattern" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/formGroupVertical">
+
+                    <LinearLayout
+                        style="@style/formGroupHorizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            style="@style/lbl12"
+                            android:layout_weight="1"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/no_of_questions"
+                            app:drawableLeftCompat="@drawable/ic_question" />
+
+                        <TextView
+                            android:id="@+id/total_questions"
+                            style="@style/lbl12"
+                            android:layout_weight="3"
+                            android:text="@string/_100" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/formGroupHorizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            style="@style/lbl12"
+                            android:layout_weight="1"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/time_in_minutes"
+                            app:drawableLeftCompat="@drawable/ic_duration" />
+
+                        <TextView
+                            android:id="@+id/duration"
+                            style="@style/lbl12"
+                            android:layout_weight="3"
+                            android:text="@string/_100" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        style="@style/formGroupHorizontal"
+                        android:weightSum="4">
+
+                        <TextView
+                            style="@style/lbl12"
+                            android:layout_weight="1"
+                            android:drawablePadding="5dp"
+                            android:gravity="center_vertical"
+                            android:text="@string/total_marks"
+                            app:drawableLeftCompat="@drawable/ic_marks" />
+
+                        <TextView
+                            android:id="@+id/total_marks"
+                            style="@style/lbl12"
+                            android:layout_weight="3"
+                            android:text="@string/_100" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                style="@style/formGroupVertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="@dimen/box_common_margin">
+
+                <LinearLayout style="@style/box_header">
+
+                    <TextView
+                        style="@style/lbl_black_bold"
+                        android:text="@string/general_instructions" />
+                </LinearLayout>
+
+                <LinearLayout
+                    style="@style/formGroupVertical">
+                    <WebView
+                        android:id="@+id/description"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:id="@+id/btnStart"
+        style="@style/button_primary"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        android:text="@string/start_test"
+        android:textColor="@color/white"/>
+</RelativeLayout>

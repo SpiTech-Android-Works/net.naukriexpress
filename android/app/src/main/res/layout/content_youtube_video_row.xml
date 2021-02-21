@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    app:cardElevation="@dimen/dimen_4dp"
+    app:cardUseCompatPadding="true"
+    android:padding="2dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/dimen_5dp">
+        <RelativeLayout
+            android:layout_marginRight="@dimen/dimen_10dp"
+            android:background="@drawable/border_orange"
+            android:layout_width="100dp"
+            android:layout_height="@dimen/dimen_80dp">
+            <com.google.android.youtube.player.YouTubeThumbnailView
+                android:id="@+id/thumbnail"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:scaleType="centerCrop"
+                android:visibility="visible" />
+            <ImageView
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:id="@+id/btnYoutube_player"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_youtube" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_weight="@integer/int_1"
+                android:layout_marginRight="@dimen/dimen_10dp"
+                android:id="@+id/name"
+                android:text="Content Name"
+                android:minHeight="39dp"
+                style="@style/lbl16"/>
+            <LinearLayout
+                android:gravity="right"
+                android:layout_marginTop="@dimen/dimen_10dp"
+            style="@style/formGroupHorizontal">
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnDownload"
+                    android:text="Download"
+                    android:layout_height="@dimen/dimen_30dp"
+                    android:layout_marginRight="@dimen/dimen_10dp"
+                  style="@style/button_primary"/>
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btnPlay"
+                    android:text="Play"
+                    android:layout_height="@dimen/dimen_30dp"
+                    android:layout_marginLeft="@dimen/dimen_10dp"
+                    style="@style/button_primary"/>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
