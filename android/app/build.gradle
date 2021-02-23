@@ -5,12 +5,12 @@ apply plugin: 'com.google.firebase.crashlytics'
 android {
     compileSdkVersion 29
     defaultConfig {
-        applicationId "app.spitech"
+        applicationId "com.kdl.naukriexpress"
         minSdkVersion 23
         multiDexEnabled true
         targetSdkVersion 29
-        versionCode 3
-        versionName "1.0.3"
+        versionCode 1
+        versionName "1.0.1"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
         ndk.abiFilters 'armeabi-v7a','arm64-v8a','x86','x86_64'
     }

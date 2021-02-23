@@ -1,34 +1,41 @@
 {
   "project_info": {
-    "project_number": "907912180058",
-    "firebase_url": "https://academy-app-demo.firebaseio.com",
-    "project_id": "academy-app-demo",
-    "storage_bucket": "academy-app-demo.appspot.com"
+    "project_number": "982642036150",
+    "project_id": "naukriexpress-961ca",
+    "storage_bucket": "naukriexpress-961ca.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:907912180058:android:d92c0f7d278434dd910363",
+        "mobilesdk_app_id": "1:982642036150:android:a56ff8676da600f7490517",
         "android_client_info": {
-          "package_name": "app.spitech"
+          "package_name": "com.kdl.naukriexpress"
         }
       },
       "oauth_client": [
         {
-          "client_id": "907912180058-7j35eqhcv0mea8qfl2r40176h532shvo.apps.googleusercontent.com",
+          "client_id": "982642036150-vj8umn5hjdh9q6cigam5jjev2206m0mo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kdl.naukriexpress",
+            "certificate_hash": "ad5cee6f284662df615154e3aade2e84bcc0bb56"
+          }
+        },
+        {
+          "client_id": "982642036150-jaaerok5dnsbv0ir2d6lk5fb4965bhlm.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBrKAS3g2790Ux6Yp8rLiNiS2Hk0c5lcFA"
+          "current_key": "AIzaSyD93YM0Fk0Zj8-UMjbDpmd0_4wxFQBaxi0"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "907912180058-7j35eqhcv0mea8qfl2r40176h532shvo.apps.googleusercontent.com",
+              "client_id": "982642036150-jaaerok5dnsbv0ir2d6lk5fb4965bhlm.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -67,6 +67,7 @@
                                           <PersistentState>
                                             <option name="values">
                                               <map>
+                                                <entry key="color" value="000000" />
                                                 <entry key="imagePath" value="C:\Users\linkCXO\AppData\Local\Temp\ic_android_black_24dp.xml" />
                                               </map>
                                             </option>
@@ -79,7 +80,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="E:\spsoni\android-work\spitech-online-exam\clients\app.spitech\logo.png" />
+                                                <entry key="imagePath" value="C:\Users\linkCXO\Downloads\naukriexpresslogo2.png" />
                                                 <entry key="scalingPercent" value="48" />
                                               </map>
                                             </option>
