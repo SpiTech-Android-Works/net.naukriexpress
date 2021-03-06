@@ -13,6 +13,9 @@
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d615cd55e5c3f5fea9db77b5d192ae6b/jetified-exomedia-4.3.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d615cd55e5c3f5fea9db77b5d192ae6b/jetified-exomedia-4.3.0/res" />
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/d615cd55e5c3f5fea9db77b5d192ae6b/jetified-exomedia-4.3.0/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1148e3415436d105f459478117b2487/jetified-exomedia-4.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1148e3415436d105f459478117b2487/jetified-exomedia-4.3.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a1148e3415436d105f459478117b2487/jetified-exomedia-4.3.0/res" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.devbrackets.android/exomedia/4.3.0/3d0980db90e0aef4c6290ed04b8b338269027944/exomedia-4.3.0-javadoc.jar!/" />

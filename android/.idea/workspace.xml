@@ -105,7 +105,7 @@
   <component name="CodeInsightWorkspaceSettings">
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[27c9b60e]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -145,8 +145,8 @@
   </component>
   <component name="GenerateSignedApkSettings">
     <option name="EXPORT_PRIVATE_KEY" value="false" />
-    <option name="KEY_STORE_PATH" value="E:\spsoni\hdd\Android\spitech-online-exam\clients\quizguru.in\playstore\keystore-quizguru.in\keystore.jks" />
-    <option name="KEY_ALIAS" value="quizguru.in" />
+    <option name="KEY_STORE_PATH" value="E:\spsoni\android-work\net.naukriexpress\playstore\keystore\keystore.jks" />
+    <option name="KEY_ALIAS" value="net.naukriexpress" />
     <option name="REMEMBER_PASSWORDS" value="true" />
   </component>
   <component name="Git.Settings">
@@ -169,7 +169,7 @@
     <property name="BundleExportedModule" value="android.app" />
     <property name="DeviceAndSnapshotComboBoxAction.selectedDevice" value="192.168.1.17:5555" />
     <property name="DeviceAndSnapshotComboBoxAction.selectionTime" value="2020-11-01T13:54:17.978Z" />
-    <property name="ExportApk.ApkPath" value="E:\spsoni\hdd\Android\spitech-online-exam\clients\quizguru.in\playstore" />
+    <property name="ExportApk.ApkPath" value="E:\spsoni\android-work\net.naukriexpress\playstore\keystore" />
     <property name="ExportApk.BuildVariants" value="release" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -416,10 +416,10 @@
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="245" y="146" key="AndroidCreateResourceFileDialog/0.31.1280.689@0.31.1280.689" timestamp="1611498901930" />
-    <state x="734" y="120" key="FileChooserDialogImpl" timestamp="1614082480072">
+    <state x="734" y="120" key="FileChooserDialogImpl" timestamp="1615015614138">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
-    <state x="734" y="120" key="FileChooserDialogImpl/0.31.1280.689@0.31.1280.689" timestamp="1614082480072" />
+    <state x="734" y="120" key="FileChooserDialogImpl/0.31.1280.689@0.31.1280.689" timestamp="1615015614138" />
     <state width="1236" height="128" key="GridCell.Tab.0.bottom" timestamp="1614085329420">
       <screen x="0" y="31" width="1280" height="689" />
     </state>
@@ -444,9 +444,5 @@
       <screen x="0" y="31" width="1280" height="689" />
     </state>
     <state x="349" y="219" key="edit.logcat.filter.dialog.dimensions/0.31.1280.689@0.31.1280.689" timestamp="1614084933760" />
-    <state x="354" y="81" width="694" height="564" key="find.popup" timestamp="1605825087197">
-      <screen x="0" y="31" width="1280" height="689" />
-    </state>
-    <state x="354" y="81" width="694" height="564" key="find.popup/0.31.1280.689@0.31.1280.689" timestamp="1605825087197" />
   </component>
 </project>
